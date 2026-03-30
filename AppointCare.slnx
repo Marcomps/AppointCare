@@ -1,1 +1,12 @@
-<Solution />
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="AppointCare.Application/AppointCare.Application.csproj" />
+    <Project Path="AppointCare.Domain/AppointCare.Domain.csproj" />
+    <Project Path="AppointCare.Infrastructure/AppointCare.Infrastructure.csproj" />
+    <Project Path="AppointCare.UI/AppointCare.UI.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="AppointCare.IntegrationTests/AppointCare.IntegrationTests.csproj" />
+    <Project Path="AppointCare.UnitTests/AppointCare.UnitTests.csproj" />
+  </Folder>
+</Solution>
