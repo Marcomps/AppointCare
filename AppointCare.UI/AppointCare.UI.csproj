@@ -24,4 +24,9 @@
     </PackageReference>
     <PackageReference Include="CommunityToolkit.Mvvm" Version="8.2.1" />
   </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AppointCare.Application\AppointCare.Application.csproj" />
+    <ProjectReference Include="..\AppointCare.Infrastructure\AppointCare.Infrastructure.csproj" />
+  </ItemGroup>
 </Project>
